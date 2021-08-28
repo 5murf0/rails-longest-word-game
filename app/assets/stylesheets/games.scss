@@ -1,0 +1,48 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  font-family: 'Kaisei Tokumin', serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.letters .single-letter {
+  text-align: center;
+  margin-right: 16px;
+  display: inline-block;
+  font-size: 32px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgb(162, 219, 250);
+}
+
+.user-input {
+  margin-top: 40px;
+}
+
+.input-field {
+  width: 300px;
+  height: 24px;
+}
+
+.play-button {
+  margin-top: 16px;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.play-again-btn {
+  text-decoration: none;
+  background-color: rgb(255, 211, 113);
+  width: 16px;
+  height: 24px;
+  border-radius: 4px;
+  padding: 12px;
+  color: black;
+}
